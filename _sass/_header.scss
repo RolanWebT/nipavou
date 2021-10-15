@@ -1,7 +1,4 @@
 
-
-
-
 nav {
     a {
         
@@ -37,18 +34,24 @@ nav {
 #top-nav {
     display: flex;
     flex-direction: row;
-    background-color: $bg-color;
+    background-color: $orange;
+    max-width: $width-lg;
     
     .logo_area {
         width: 33.33%;
 
-        .logo__large {
-            width: 250px;
-            height: auto;
+        .logo {
+            margin-left: 15px;
 
-            @media screen and (max-width: 560px) {
-                display: none;
+            &__large {
+                width: 250px;
+                height: auto;
+    
+                @media screen and (max-width: 560px) {
+                    display: none;
+                }
             }
+
         }
 
         .logo__small {
@@ -95,7 +98,7 @@ nav {
 .header_banner {
     display: flex;
     flex-direction: row;
-    background-color: $bg-color;
+    background-color: $blue;
     max-width: $width-lg;
     border-top: 50px solid $black;
     padding: 70px 20px 40px;

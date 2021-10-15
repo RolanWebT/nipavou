@@ -1,3 +1,5 @@
+@import "variables";
+
 * {
     margin: 0 auto;
     box-sizing: border-box;
@@ -5,8 +7,33 @@
     font-style: normal;
 }
 
+section {
+    padding: 30px 0 40px;
+}
+.article {
+    padding: 15px 15px 20px;
+}
+.container {
+    max-width: $width-lg;
+}
 
-@import "variables";
+
+.green-bg {
+    background-color: $green;
+}
+.blue-bg {
+    background-color: $blue;
+}
+.orange-bg {
+    background-color: $orange;
+}
+.dark-bg {
+    background-color: $dark-color;
+}
+.red-bg {
+    background-color: $red;
+}
 @import "header";
+@import "main_content";
 @import "footer";
 

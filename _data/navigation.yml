@@ -1,9 +1,9 @@
 - name: Home
   link: /
-- name: Wir
-  link: /#wir
-- name: Kalender
-  link: /#kalender
+- name: Start
+  link: /#start
+- name: Lessons
+  link: /#lessons
 - name: Media
   link: /#media
 - name: Downloads
