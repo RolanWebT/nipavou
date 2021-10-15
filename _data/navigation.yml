@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Wir
+  link: /#wir
+- name: Kalender
+  link: /#kalender
+- name: Media
+  link: /#media
+- name: Downloads
+  link: /#downloads
