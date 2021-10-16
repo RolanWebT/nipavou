@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: my_layout
-title: Home page
+title: Ni Pa Vou
 my_number: 5
 ---

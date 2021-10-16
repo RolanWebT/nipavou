@@ -3,36 +3,58 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
-    font-family: stratos, sans-serif;
-    font-style: normal;
+    -webkit-box-sizing: border-box;
+    font-family: $main-font;
+    font-style: normal; }
+
+html {
+    font-size: 16px; 
+    
+    @media (min-width: $width-md) {
+        font-size: 18px; }
 }
+    
+/* Type will scale with document */
+h1 {
+font-size: 3rem; }
+
+h2 {
+font-size: 2.5rem; }
+
+h3 {
+font-size: 2rem; }
+
+h4 {
+    font-size: 1.5rem; }
 
 section {
-    padding: 30px 0 40px;
-}
-.article {
-    padding: 15px 15px 20px;
-}
-.container {
-    max-width: $width-lg;
-}
+    padding: 30px 0 40px; }
 
+.section {
+    padding: 15px 15px 300px;
+    margin: 30px 0 50px; }
+
+.container {
+    max-width: $width-sm;
+    
+    &__nav {
+        background-color: $bg-color; }  }
 
 .green-bg {
-    background-color: $green;
-}
+    background-color: $green; }
+
 .blue-bg {
-    background-color: $blue;
-}
+    background-color: $blue; }
+
 .orange-bg {
-    background-color: $orange;
-}
+    background-color: $orange; }
+
 .dark-bg {
-    background-color: $dark-color;
-}
+    background-color: $dark-color; }
+
 .red-bg {
-    background-color: $red;
-}
+    background-color: $red; }
+
 @import "header";
 @import "main_content";
 @import "footer";

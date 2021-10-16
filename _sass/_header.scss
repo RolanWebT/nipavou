@@ -4,6 +4,11 @@ nav {
         
         text-transform: uppercase;
         text-decoration: none;
+
+        &.active {
+            background-color: hotpink;
+        }
+        
     }
     a:last-child {
         padding-right: 0;
@@ -11,18 +16,22 @@ nav {
     a:hover {
         background-color: hotpink;
     }
+    
 }
 
 
 .current {
     font-weight: 800;
 }
+
+/***** Black Banner from the right side ***/   
+
 .header__wrapper {
     position: relative;
     .banner_right {
         position: absolute;
         right: 0;
-        top: 102px;
+        top: 0px;
         height: 50px;
         border: none;
         background-color: $black;
@@ -36,6 +45,12 @@ nav {
     flex-direction: row;
     background-color: $orange;
     max-width: $width-lg;
+    /** sticky top nav **/
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 100;
+
     
     .logo_area {
         width: 33.33%;
@@ -104,6 +119,7 @@ nav {
     padding: 70px 20px 40px;
     column-gap: 50px;
     row-gap: 30px;
+    margin-top: 103px;
     
     .item_citat {
         width: 33.33%;
